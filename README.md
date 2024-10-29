@@ -7,7 +7,7 @@ To make this happen, I manipulate various sorting algorithms and choose the most
 ◦ The stack a contains a random amount of negative and/or positive numbers which cannot be duplicated.  
 ◦ The stack b is empty.  
   
-### The goal is to sort in ascending order numbers into stack a. To do so you have the following operations at your disposal:  
+### The goal is to sort in ascending order numbers into stack a. To do so I have the following operations at my disposal:  
   
 `sa` (swap a): Swap the first 2 elements at the top of stack a.  
 Do nothing if there is only one or no elements.  
