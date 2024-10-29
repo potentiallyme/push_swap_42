@@ -40,9 +40,9 @@ The last element becomes the first one.
 `rrr` : rra and rrb at the same time.  
   
   
-#### The algorithm only outputs the actions required to sort the list, and is quite difficult to read for bigger sets, therefore use the checker I created for the BONUS part of the project which will output `OK` if the sorting is, in fact, correct
-To do so, say we use a list containing '1 5 2 4 3' that we want sorted, do:
-`$ARG='1 5 2 4 3'; ./push_swap $ARG | ./checker $ARG`
-The output should be `OK`
-If the list is incorrect, either push_swap or checker will output `Error` (depending which notices the error)
-If the list isn't sorted, the checker will output `KO` (if possible :p)
+#### The algorithm only outputs the actions required to sort the list, and is quite difficult to read for bigger sets, therefore use the checker I created for the BONUS part of the project which will output `OK` if the sorting is, in fact, correct  
+To do so, say we use a list containing '1 5 2 4 3' that we want sorted, do:  
+`$ARG='1 5 2 4 3'; ./push_swap $ARG | ./checker $ARG`   
+The output should be `OK`  
+If the list is incorrect, either push_swap or checker will output `Error` (depending which notices the error)  
+If the list isn't sorted, the checker will output `KO` (if possible :p)  
